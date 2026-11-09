@@ -1,0 +1,140 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #000000;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.container {
+    width: 650px;
+    max-width: 95%;
+    margin: 45px auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.logo {
+    background: #222222;
+    color: white;
+    padding: 16px;
+    border-radius: 0;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    color: #999999;
+    font-size: 14px;
+}
+
+.box {
+    background: #111111;
+    border: 1px solid #333333;
+    border-radius: 0;
+    padding: 25px;
+}
+
+label {
+    display: block;
+    margin: 18px 0 9px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 13px;
+    background: #050505;
+    color: white;
+    border: 1px solid #444444;
+    border-radius: 0;
+    font-size: 14px;
+    outline: none;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #aaaaaa;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+button {
+    background: #333333;
+    color: white;
+    border: 1px solid #555555;
+    border-radius: 0;
+    padding: 12px 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555555;
+}
+
+.buttons button:nth-child(2) {
+    background: #222222;
+}
+
+.buttons .clear {
+    background: #181818;
+}
+
+#status {
+    color: #aaaaaa;
+    font-size: 13px;
+    margin-top: 18px;
+}
+
+.copy {
+    margin-top: 12px;
+    background: #333333;
+}
+
+footer {
+    text-align: center;
+    color: #777777;
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+@media (max-width: 500px) {
+    header {
+        align-items: flex-start;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    .box {
+        padding: 18px;
+    }
+}

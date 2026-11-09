@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szyfrowanie XOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="xor_module.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+
+       
+
+        <main class="box">
+
+            <label for="tekst">Wiadomość</label>
+            <textarea id="tekst" ></textarea>
+
+            <div class="buttons">
+                <button onclick="szyfruj()">Zaszyfruj</button>
+                <button onclick="odszyfruj()">Odszyfruj</button>
+                <button class="clear" onclick="wyczysc()">Wyczyść</button>
+            </div>
+
+            <label for="wynik">Wynik</label>
+            <textarea id="wynik" readonly></textarea>
+
+            <button class="copy" onclick="kopiuj()">Kopiuj wynik</button>
+
+            <p id="status"></p>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
