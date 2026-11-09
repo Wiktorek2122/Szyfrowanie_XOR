@@ -1,7 +1,4 @@
 # Szyfrowanie_XOR
-
-# Szyfrowanie XOR
-
 ## Opis projektu
 
 Projekt przedstawia prosty program do szyfrowania i odszyfrowywania wiadomości za pomocą algorytmu XOR.
